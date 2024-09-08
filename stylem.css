@@ -1,0 +1,253 @@
+body{
+      background-image: url(img1.jpeg);
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    background-image:  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(back3.jpg) ;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+   
+}
+
+.nav{
+    width: 100%;
+    height:100px;
+    justify-content: space-around;
+     text-decoration: none ;
+     display: flex;
+     margin-top: 30px;
+     margin-right: 100px;
+     
+
+
+}   
+
+
+.logo{
+    color: white;
+    letter-spacing:2px;
+    font-size: 3em;
+
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+   
+    
+       
+}
+
+.home a:hover:before{
+    width: 90%;
+}
+
+.home a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    border-bottom:2px solid black;
+    transition: 0.4s linear
+}
+
+.text{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.register a{
+    text-decoration: none;
+    color:white ;
+    padding: 10px 20px;
+    background-color: black;
+   border-radius: 7px;
+}
+
+.register a:hover{
+    background: transparent;
+    border: 2px solid black;
+}
+
+
+.text p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.text a:hover{
+    background: transparent;
+    border: 2px solid black;
+}
+
+.div0{
+    width: 100%;
+    height: 1300px; 
+  
+}
+
+
+.div1{
+        width: 800px;
+        height: 1000px;
+        background-color: white;
+        margin-top: 30px;
+        background-size: cover;
+        margin-left: 30px;
+}
+
+.div1 img{
+    width: 700px;
+    height: 700px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+.div1 p{
+    padding-left: 14px;
+    font-size: 20px;
+}
+
+.foot{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(72, 31, 31);
+    margin-top: 30px;
+    bottom: 0;
+    border-radius: 20px;
+
+}
+
+.col p{
+    color: white;
+  font-size: 20px;
+
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between;
+    
+}
+
+.logo{
+    color: white;
+    margin-top: 30px;
+}
+
+.col{
+    flex-basis: 30%;
+    padding: 10px;
+    
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+ul li{
+    list-style: none;
+    max-width:auto;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col p{
+    color:whitesmoke;
+    justify-content: space-around;
+    
+}
+
+.col2 {
+    color: white;
+
+}
+
+.col2 img{
+            height: 30px;
+            width: 30px;
+           background-color: white;
+           margin-right: 30px;
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+}
+
+.flex-box{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin-left: 1000px;
+    bottom: 100px;
+    top: 670px;
+    right: 35px;
+   
+}
+
+.flex-box img{
+    width: 550px;
+    height: 400px;
+    margin-left:25px;
+    margin-top: 25px;
+}
+
+.flex-box p{
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.flex-box1{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin-left: 1000px;
+    bottom: 100px;
+    top: 1320px;
+    right: 35px;
+   
+}
+
+.flex-box1 img{
+    height: 180px;
+    width: 290px;
+    margin-top: 13px;
+    margin-left: 5px;
+
+}
+
+.flex-box1 p{
+    font-size: 18px;
+    margin-left: 7px;
+}

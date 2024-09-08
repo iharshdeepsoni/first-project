@@ -1,0 +1,165 @@
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(back2.png);
+    background-size: cover;
+    
+
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.menu a:before{
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       width:0%;
+       height: 100%;
+       border-bottom:2px solid black;
+       transition: 0.4s linear;
+}
+
+.menu a:hover:before{
+    width: 90%;
+}
+.register a{
+    text-decoration: none;
+    color:white ;
+    padding: 10px 20px;
+    background-color: black;
+   border-radius: 7px;
+}
+
+
+
+.logo{
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+.text{
+      max-width: 650px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      color: white;
+}
+
+.text h1{
+    font-size: 3.5em;
+}
+
+.text a{
+    text-decoration: none;
+    color:white ;
+    padding: 15px 30px;
+    background-color: black;
+   border-radius: 7px;
+   font-size: 20px;
+}
+
+.register a:hover{
+    background: transparent;
+    border: 2px solid black;
+}
+
+.text a:hover{
+    background: transparent;
+    border: 2px solid black;
+}
+
+
+.foot{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(72, 31, 31);
+    margin-top: 30px;
+    bottom: 0;
+    border-radius: 20px;
+
+}
+
+.col p{
+    color: white;
+  font-size: 20px;
+
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between;
+    
+}
+
+.logo{
+    color: white;
+    margin-top: 30px;
+}
+
+.col{
+    flex-basis: 30%;
+    padding: 10px;
+    
+}
+
+.col1 a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+ul li{
+    list-style: none;
+    max-width:auto;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col p{
+    color:whitesmoke;
+    justify-content: space-around;
+    
+}
+
+.col2 {
+    color: white;
+
+}
+
+.col2 img{
+            height: 30px;
+            width: 30px;
+           background-color: white;
+           margin-right: 30px;
+}
+ 
